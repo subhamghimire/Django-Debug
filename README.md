@@ -2,7 +2,7 @@
 :heart:Install django toolbar on your system:   [![](https://img.shields.io/badge/pip-django__toolbar-yellowgreen.svg)](https://pypi.org/project/django-debug-toolbar/)
 
 <code>pip install django-debug-toolbar</code>
-<h3>In _settings.py_ Do Following</h3>
+<h3>In **settings.py** Do Following</h3>
 <code><pre>INSTALLED_APPS = [
     # ...
     'django.contrib.staticfiles',
