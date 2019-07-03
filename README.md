@@ -18,7 +18,7 @@ Enable Middleware:
     # ...]
 </pre></code>
 
-Configuring internal ips:
+Configure internal ips:
 <code><pre>INTERNAL_IPS = [
     # ...
     '127.0.0.1',
