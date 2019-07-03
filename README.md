@@ -1,6 +1,7 @@
 
 Install django toolbar on your system: 
 <code>pip install django-debug-toolbar</code>
+<h3>In settings.py Do Following</h3>
 <code><pre>INSTALLED_APPS = [
     # ...
     'django.contrib.staticfiles',
