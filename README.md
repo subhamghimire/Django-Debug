@@ -28,9 +28,11 @@ STATIC_URL = '/static/'
 <h3>In The Project's urls.py Do Following</h3>
 
 _Setting up url conf_:
-<code><pre>from django.conf import settings
+<pre>
+from django.conf import settings
 from django.conf.urls import include, url # For django versions before 2.0from django.urls import include, path # For django versions from 2.0 and up 
 
+```
 if settings.DEBUG:
     import debug_toolbar
     urlpatterns = [
@@ -38,4 +40,6 @@ if settings.DEBUG:
         # For django versions before 2.0:
         # url(r'^__debug__/', include(debug_toolbar.urls)),
     ] + urlpatterns
-  </pre></code>
+```
+</pre>
+
